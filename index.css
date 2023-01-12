@@ -6,14 +6,15 @@ body{
 }
 input[type=text] {
   width: 100%;
-  padding: 12px 20px;
+  padding: 10px 50px;
   margin: 8px 0;
   box-sizing: border-box;
-  border: 2px solid #4CAF50;
   border-radius: 4px;
 }
 .button {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 8px 15px;
   font-size: 24px;
   cursor: pointer;
@@ -21,24 +22,21 @@ input[type=text] {
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color: #4CAF50;
+  background-color: rgba(44, 44, 171, 0.64);
   border: none;
   border-radius: 15px;
-  box-shadow: 0 9px #999;
+  
 }
 
-.button:hover {background-color: #3e8e41}
+.button:hover {background-color: red}
 
-.button:active {
-background-color: #3e8e41;
-box-shadow: 0 5px #666;
-transform: translateY(4px);
-}
+
 
 .waterAndWallContainer, .onlyWaterContainer{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 100%;
-  height: 45vh;
+  width: 70%;
+  border: 10px;
+  height: 50vh;
 }
